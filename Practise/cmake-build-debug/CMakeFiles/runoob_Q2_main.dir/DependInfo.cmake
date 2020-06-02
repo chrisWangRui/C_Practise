@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/chris/Documents/GitHub/C_Practise/Practise/first.c" "/Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/CMakeFiles/first_main.dir/first.c.o"
+  "/Users/chris/Documents/GitHub/C_Practise/Practise/runoob_Q2.c" "/Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/CMakeFiles/runoob_Q2_main.dir/runoob_Q2.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

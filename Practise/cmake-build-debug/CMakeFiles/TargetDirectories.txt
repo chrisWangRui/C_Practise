@@ -1,3 +1,5 @@
 /Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/CMakeFiles/runoob_Q2_main.dir
+/Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/CMakeFiles/runoob_Q1_main.dir
 /Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/CMakeFiles/first_main.dir

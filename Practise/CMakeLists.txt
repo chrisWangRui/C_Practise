@@ -3,4 +3,6 @@ project(Practise C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(first_main first.c runoob_Q1.c)
+add_executable(first_main first.c)
+add_executable(runoob_Q1_main runoob_Q1.c)
+add_executable(runoob_Q2_main runoob_Q2.c)

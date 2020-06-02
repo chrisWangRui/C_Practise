@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/first_main.dir/first.c.o"
-  "CMakeFiles/first_main.dir/runoob_Q1.c.o"
   "first_main"
   "first_main.pdb"
 )

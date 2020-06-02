@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named runoob_Q2_main
+
+# Build rule for target.
+runoob_Q2_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 runoob_Q2_main
+.PHONY : runoob_Q2_main
+
+# fast build rule for target.
+runoob_Q2_main/fast:
+	$(MAKE) -f CMakeFiles/runoob_Q2_main.dir/build.make CMakeFiles/runoob_Q2_main.dir/build
+.PHONY : runoob_Q2_main/fast
+
+#=============================================================================
+# Target rules for targets named runoob_Q1_main
+
+# Build rule for target.
+runoob_Q1_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 runoob_Q1_main
+.PHONY : runoob_Q1_main
+
+# fast build rule for target.
+runoob_Q1_main/fast:
+	$(MAKE) -f CMakeFiles/runoob_Q1_main.dir/build.make CMakeFiles/runoob_Q1_main.dir/build
+.PHONY : runoob_Q1_main/fast
+
+#=============================================================================
 # Target rules for targets named first_main
 
 # Build rule for target.
@@ -156,7 +182,7 @@ runoob_Q1.o: runoob_Q1.c.o
 
 # target to build an object file
 runoob_Q1.c.o:
-	$(MAKE) -f CMakeFiles/first_main.dir/build.make CMakeFiles/first_main.dir/runoob_Q1.c.o
+	$(MAKE) -f CMakeFiles/runoob_Q1_main.dir/build.make CMakeFiles/runoob_Q1_main.dir/runoob_Q1.c.o
 .PHONY : runoob_Q1.c.o
 
 runoob_Q1.i: runoob_Q1.c.i
@@ -165,7 +191,7 @@ runoob_Q1.i: runoob_Q1.c.i
 
 # target to preprocess a source file
 runoob_Q1.c.i:
-	$(MAKE) -f CMakeFiles/first_main.dir/build.make CMakeFiles/first_main.dir/runoob_Q1.c.i
+	$(MAKE) -f CMakeFiles/runoob_Q1_main.dir/build.make CMakeFiles/runoob_Q1_main.dir/runoob_Q1.c.i
 .PHONY : runoob_Q1.c.i
 
 runoob_Q1.s: runoob_Q1.c.s
@@ -174,8 +200,35 @@ runoob_Q1.s: runoob_Q1.c.s
 
 # target to generate assembly for a file
 runoob_Q1.c.s:
-	$(MAKE) -f CMakeFiles/first_main.dir/build.make CMakeFiles/first_main.dir/runoob_Q1.c.s
+	$(MAKE) -f CMakeFiles/runoob_Q1_main.dir/build.make CMakeFiles/runoob_Q1_main.dir/runoob_Q1.c.s
 .PHONY : runoob_Q1.c.s
+
+runoob_Q2.o: runoob_Q2.c.o
+
+.PHONY : runoob_Q2.o
+
+# target to build an object file
+runoob_Q2.c.o:
+	$(MAKE) -f CMakeFiles/runoob_Q2_main.dir/build.make CMakeFiles/runoob_Q2_main.dir/runoob_Q2.c.o
+.PHONY : runoob_Q2.c.o
+
+runoob_Q2.i: runoob_Q2.c.i
+
+.PHONY : runoob_Q2.i
+
+# target to preprocess a source file
+runoob_Q2.c.i:
+	$(MAKE) -f CMakeFiles/runoob_Q2_main.dir/build.make CMakeFiles/runoob_Q2_main.dir/runoob_Q2.c.i
+.PHONY : runoob_Q2.c.i
+
+runoob_Q2.s: runoob_Q2.c.s
+
+.PHONY : runoob_Q2.s
+
+# target to generate assembly for a file
+runoob_Q2.c.s:
+	$(MAKE) -f CMakeFiles/runoob_Q2_main.dir/build.make CMakeFiles/runoob_Q2_main.dir/runoob_Q2.c.s
+.PHONY : runoob_Q2.c.s
 
 # Help Target
 help:
@@ -185,6 +238,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... runoob_Q2_main"
+	@echo "... runoob_Q1_main"
 	@echo "... first_main"
 	@echo "... first.o"
 	@echo "... first.i"
@@ -192,6 +247,9 @@ help:
 	@echo "... runoob_Q1.o"
 	@echo "... runoob_Q1.i"
 	@echo "... runoob_Q1.s"
+	@echo "... runoob_Q2.o"
+	@echo "... runoob_Q2.i"
+	@echo "... runoob_Q2.s"
 .PHONY : help
 
 

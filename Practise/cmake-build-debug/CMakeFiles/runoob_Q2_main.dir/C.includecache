@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/chris/Documents/GitHub/C_Practise/Practise/runoob_Q2.c
+stdio.h
+/Users/chris/Documents/GitHub/C_Practise/Practise/stdio.h
+
