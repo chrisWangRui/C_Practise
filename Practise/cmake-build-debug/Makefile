@@ -111,44 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Practise
+# Target rules for targets named first_main
 
 # Build rule for target.
-Practise: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Practise
-.PHONY : Practise
+first_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 first_main
+.PHONY : first_main
 
 # fast build rule for target.
-Practise/fast:
-	$(MAKE) -f CMakeFiles/Practise.dir/build.make CMakeFiles/Practise.dir/build
-.PHONY : Practise/fast
+first_main/fast:
+	$(MAKE) -f CMakeFiles/first_main.dir/build.make CMakeFiles/first_main.dir/build
+.PHONY : first_main/fast
 
-main.o: main.c.o
+first.o: first.c.o
 
-.PHONY : main.o
+.PHONY : first.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/Practise.dir/build.make CMakeFiles/Practise.dir/main.c.o
-.PHONY : main.c.o
+first.c.o:
+	$(MAKE) -f CMakeFiles/first_main.dir/build.make CMakeFiles/first_main.dir/first.c.o
+.PHONY : first.c.o
 
-main.i: main.c.i
+first.i: first.c.i
 
-.PHONY : main.i
+.PHONY : first.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/Practise.dir/build.make CMakeFiles/Practise.dir/main.c.i
-.PHONY : main.c.i
+first.c.i:
+	$(MAKE) -f CMakeFiles/first_main.dir/build.make CMakeFiles/first_main.dir/first.c.i
+.PHONY : first.c.i
 
-main.s: main.c.s
+first.s: first.c.s
 
-.PHONY : main.s
+.PHONY : first.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/Practise.dir/build.make CMakeFiles/Practise.dir/main.c.s
-.PHONY : main.c.s
+first.c.s:
+	$(MAKE) -f CMakeFiles/first_main.dir/build.make CMakeFiles/first_main.dir/first.c.s
+.PHONY : first.c.s
+
+runoob_Q1.o: runoob_Q1.c.o
+
+.PHONY : runoob_Q1.o
+
+# target to build an object file
+runoob_Q1.c.o:
+	$(MAKE) -f CMakeFiles/first_main.dir/build.make CMakeFiles/first_main.dir/runoob_Q1.c.o
+.PHONY : runoob_Q1.c.o
+
+runoob_Q1.i: runoob_Q1.c.i
+
+.PHONY : runoob_Q1.i
+
+# target to preprocess a source file
+runoob_Q1.c.i:
+	$(MAKE) -f CMakeFiles/first_main.dir/build.make CMakeFiles/first_main.dir/runoob_Q1.c.i
+.PHONY : runoob_Q1.c.i
+
+runoob_Q1.s: runoob_Q1.c.s
+
+.PHONY : runoob_Q1.s
+
+# target to generate assembly for a file
+runoob_Q1.c.s:
+	$(MAKE) -f CMakeFiles/first_main.dir/build.make CMakeFiles/first_main.dir/runoob_Q1.c.s
+.PHONY : runoob_Q1.c.s
 
 # Help Target
 help:
@@ -158,10 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Practise"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... first_main"
+	@echo "... first.o"
+	@echo "... first.i"
+	@echo "... first.s"
+	@echo "... runoob_Q1.o"
+	@echo "... runoob_Q1.i"
+	@echo "... runoob_Q1.s"
 .PHONY : help
 
 
