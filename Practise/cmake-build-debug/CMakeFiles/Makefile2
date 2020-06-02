@@ -53,6 +53,8 @@ CMAKE_BINARY_DIR = /Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/runoob_Q3_main.dir/all
+all: CMakeFiles/runoob_Q4_main.dir/all
 all: CMakeFiles/runoob_Q2_main.dir/all
 all: CMakeFiles/runoob_Q1_main.dir/all
 all: CMakeFiles/first_main.dir/all
@@ -65,11 +67,67 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/runoob_Q3_main.dir/clean
+clean: CMakeFiles/runoob_Q4_main.dir/clean
 clean: CMakeFiles/runoob_Q2_main.dir/clean
 clean: CMakeFiles/runoob_Q1_main.dir/clean
 clean: CMakeFiles/first_main.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/runoob_Q3_main.dir
+
+# All Build rule for target.
+CMakeFiles/runoob_Q3_main.dir/all:
+	$(MAKE) -f CMakeFiles/runoob_Q3_main.dir/build.make CMakeFiles/runoob_Q3_main.dir/depend
+	$(MAKE) -f CMakeFiles/runoob_Q3_main.dir/build.make CMakeFiles/runoob_Q3_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target runoob_Q3_main"
+.PHONY : CMakeFiles/runoob_Q3_main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/runoob_Q3_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/runoob_Q3_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/runoob_Q3_main.dir/rule
+
+# Convenience name for target.
+runoob_Q3_main: CMakeFiles/runoob_Q3_main.dir/rule
+
+.PHONY : runoob_Q3_main
+
+# clean rule for target.
+CMakeFiles/runoob_Q3_main.dir/clean:
+	$(MAKE) -f CMakeFiles/runoob_Q3_main.dir/build.make CMakeFiles/runoob_Q3_main.dir/clean
+.PHONY : CMakeFiles/runoob_Q3_main.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/runoob_Q4_main.dir
+
+# All Build rule for target.
+CMakeFiles/runoob_Q4_main.dir/all:
+	$(MAKE) -f CMakeFiles/runoob_Q4_main.dir/build.make CMakeFiles/runoob_Q4_main.dir/depend
+	$(MAKE) -f CMakeFiles/runoob_Q4_main.dir/build.make CMakeFiles/runoob_Q4_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target runoob_Q4_main"
+.PHONY : CMakeFiles/runoob_Q4_main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/runoob_Q4_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/runoob_Q4_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/runoob_Q4_main.dir/rule
+
+# Convenience name for target.
+runoob_Q4_main: CMakeFiles/runoob_Q4_main.dir/rule
+
+.PHONY : runoob_Q4_main
+
+# clean rule for target.
+CMakeFiles/runoob_Q4_main.dir/clean:
+	$(MAKE) -f CMakeFiles/runoob_Q4_main.dir/build.make CMakeFiles/runoob_Q4_main.dir/clean
+.PHONY : CMakeFiles/runoob_Q4_main.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/runoob_Q2_main.dir
