@@ -37,6 +37,46 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="runoob_Q5_main">
+				<Option output="/Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/runoob_Q5_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/Makefile&quot;  VERBOSE=1 runoob_Q5_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runoob_Q5_main/fast">
+				<Option output="/Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/runoob_Q5_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/Makefile&quot;  VERBOSE=1 runoob_Q5_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="runoob_Q3_main">
 				<Option output="/Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug/runoob_Q3_main" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/chris/Documents/GitHub/C_Practise/Practise/cmake-build-debug"/>
@@ -252,6 +292,9 @@
 		</Unit>
 		<Unit filename="/Users/chris/Documents/GitHub/C_Practise/Practise/runoob_Q4.c">
 			<Option target="runoob_Q4_main"/>
+		</Unit>
+		<Unit filename="/Users/chris/Documents/GitHub/C_Practise/Practise/runoob_Q5.c">
+			<Option target="runoob_Q5_main"/>
 		</Unit>
 		<Unit filename="/Users/chris/Documents/GitHub/C_Practise/Practise/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
